@@ -3,23 +3,25 @@ body {
     margin: 30px;
     padding: 0;
     background-color: black;
-    overflow-x: hidden;
+    overflow-x: visible;
 }header{
   color: white;
   background-color: rgba(255, 99, 71, 0.5);
   margin: 20px ; 
   font-family: 'Arial', sans-serif;
   font-size: 20px;
+  text-align: center;
   
 }img{
   border-radius: 200px;
   text-align: left;
   
 }nav ul{
-  background-color: white;
+  height:600;
+  background-color: maroon;
   list-style-type: none;
-    margin: 20;
-    padding:90;
+    margin: 200;
+    padding:1000;
 }
 
 nav ul li {
@@ -27,19 +29,32 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: green;
+    text-decoration-line: underline;
+    color: pink;
     padding: 10px;
 }
 
 main section {
-    margin: 20px;
+    margin: 80px;
   
 }section{
   color: white;
   font-weight: bold
-    font-family: 'Arial' sans-serif;
+  font-family: 'Arial' sans-serif;
+  margin: 40px;
+  font-size: 20px;
   
 }h2{
-  text-align: center
+  text-align: center;
+  font-family: 'Arial';
+  color: pink;
+  
+}footer{
+  text-align: center;
+  color: pink;
+    background-color: rgba(255, 99, 71, 0.5);
+  font-weight: bold;
+  font-size:25px;
+  
+}
           
